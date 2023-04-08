@@ -48,7 +48,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "MiuiCamera",
 	owner: "xiaomi",
-	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
+	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera-Leica.apk",
 	overrides: ["Snap", "GoogleCameraGo", "Camera2", "Aperture"],
 	certificate: "platform",
 	dex_preopt: {
@@ -352,15 +352,6 @@ prebuilt_etc_xml {
 	name: "manifest_vendor.xiaomi.hardware.mlipay",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.dolby.hardware.dms",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
