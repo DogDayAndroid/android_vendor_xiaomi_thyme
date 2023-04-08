@@ -48,7 +48,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "MiuiCamera",
 	owner: "xiaomi",
-	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera-Leica.apk",
+	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
 	overrides: ["Snap", "GoogleCameraGo", "Camera2", "Aperture"],
 	certificate: "platform",
 	dex_preopt: {
