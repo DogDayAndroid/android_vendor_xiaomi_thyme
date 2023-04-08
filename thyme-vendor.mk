@@ -6,17 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/thyme
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/thyme/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
-    vendor/xiaomi/thyme/proprietary/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/xiaomi/thyme/proprietary/lib/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.dsi.ant@1.0.so \
     vendor/xiaomi/thyme/proprietary/lib/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_algoup_jni.xiaomi.so \
     vendor/xiaomi/thyme/proprietary/lib64/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.dsi.ant@1.0.so \
     vendor/xiaomi/thyme/proprietary/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
     vendor/xiaomi/thyme/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
-    vendor/xiaomi/thyme/proprietary/product/etc/permissions/com.motorola.dolby.dolbyui.dax3.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.dolby.dolbyui.dax3.features.xml \
-    vendor/xiaomi/thyme/proprietary/system/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/xiaomi/thyme/proprietary/system/etc/permissions/com.qualcomm.qti.UxPerformance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.UxPerformance.xml \
-    vendor/xiaomi/thyme/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
     vendor/xiaomi/thyme/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/thyme/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
     vendor/xiaomi/thyme/proprietary/system_ext/bin/qspmsvc:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qspmsvc \
@@ -1624,21 +1619,14 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qualcomm.qti.gpudrivers.kona.api30 \
     PowerOffAlarm \
-    MotoDolbyDax3 \
     ImsRcsService \
     PerformanceMode \
     PowerSaveMode \
     QtiTelephonyService \
     workloadclassifier \
-    MotorolaSettingsProvider \
-    daxService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    com.motorola.frameworks.core.addon \
-    moto-checkin \
-    moto-settings \
-    motoaudioeffectsdk \
     tcmclient \
     QPerformance \
     QXPerformance \
